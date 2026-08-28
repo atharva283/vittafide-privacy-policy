@@ -1,6 +1,6 @@
 # VittaFide — Privacy Policy
 
-**Effective Date:** August 6, 2026 | **Last Updated:** August 9, 2026  
+**Effective Date:** August 6, 2026 | **Last Updated:** August 28, 2026  
 **App Version:** 2.1.0 and above  
 **Developer:** VittaFide  
 **Contact Email:** support.vittafide@gmail.com  
@@ -28,6 +28,7 @@ VittaFide only saves the data that **you manually type into the app**. We never 
 * **Inventory:** Product names, prices, and available stock.
 * **Security PIN:** Your 4-digit lock PIN (saved safely as a secret code, never as normal numbers).
 * **App Settings:** Light/Dark mode, reminder times, and backup choices.
+* **Feedback & Reviews:** If you voluntarily submit feedback through our forms, we may collect your Business Name, City, and feedback details to improve the app. We never sell this information.
 
 ## 3. How We Collect Data — Feature-by-Feature
 
