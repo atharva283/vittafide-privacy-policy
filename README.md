@@ -1,6 +1,6 @@
 # VittaFide — Privacy Policy
 
-**Effective Date:** August 6, 2026 | **Last Updated:** August 28, 2026  
+**Effective Date:** August 6, 2026 | **Last Updated:** August 30, 2026  
 **App Version:** 2.1.0 and above  
 **Developer:** VittaFide  
 **Contact Email:** support.vittafide@gmail.com  
@@ -128,11 +128,18 @@ You can create a Manual Backup anytime, or let the app do an Auto Backup every n
 * Always create a fresh backup of your current data before restoring an older one.
 * **Old Backup Auto-Update:** If you restore an old backup made before our new security updates, the app will automatically upgrade it to the new safe format during the restore process.
 
-**Important Rule: Changing Phones (Cross-Device Security)**
-Because VittaFide is a 100% offline app, your data is locked using your specific phone's unique hardware security (KeyStore). 
-* **This means a backup file created on one phone CANNOT be restored on a different phone.** 
-* Backups are designed to help you recover your data on the **same phone** (for example, if you accidentally uninstall the app or reset your phone). 
-* We do this intentionally to ensure that even if someone steals your backup file, they cannot open your business data on their device.
+**Device Backup vs. Cross-Device Backup:**
+VittaFide gives you two ways to back up your data:
+
+* **Device Backup (.zip):** Locked using your specific phone's unique hardware security (KeyStore). It **CANNOT** be restored on a different phone — this is intentional, so a stolen backup file can't be opened by anyone else. It's designed to help you recover your data on the same phone (for example, if you accidentally uninstall the app or reset your phone).
+
+* **Cross-Device Backup (.vkbak):** Lets you easily transfer your shop's data to a new phone. Create one from Settings, transfer the `.vkbak` file to your new phone (over WhatsApp, Google Drive, email, or any method you choose), and restore it there.
+
+**Important Privacy Warning:**
+Because a Cross-Device Backup (`.vkbak`) file is designed to be portable across phones, it is NOT encrypted while it is in transit or sitting in another app or service (like Google Drive or WhatsApp). Anyone who gets hold of this file can read your shop's business data. You are fully responsible for keeping your `.vkbak` file safe — only share it through channels you trust, and delete it once you no longer need it.
+
+**Tip: Renaming Your Backup File**
+You're free to rename a `.vkbak` file when saving it (for example, `MyShopData.vkbak`), but the file name must keep the `.vkbak` extension at the end. If you remove or change the extension, the app will not recognize the file when you try to restore it.
 
 ## 11. Data Retention & Deletion
 Your data stays on your phone as long as you keep the app.
@@ -159,6 +166,6 @@ If you have any questions about your privacy, email us at: **support.vittafide@g
 * **Data saved on our servers?** No, only on your phone.
 * **Ads or tracking?** No.
 * **Who sees my data?** Only you.
-* **Can I restore my backup on a new phone?** No, for your security, backups only work on the phone where they were created. 
+* **Can I restore my backup on a new phone?** Yes, using the Cross-Device Backup feature. Please keep your exported `.vkbak` backup file safe.
 
 *(This Privacy Policy applies to VittaFide version 2.1.0 and above. © 2026 VittaFide. All rights reserved.)*
